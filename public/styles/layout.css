@@ -3,11 +3,15 @@
  * https://css-tricks.com/international-box-sizing-awareness-day/
  * Do not modify these two selectors, please
  */
+
+
 html {
   box-sizing: border-box;
 }
 *, *:before, *:after {
   box-sizing: inherit;
+  --pp-font: 'Source Sans Pro', sans-serif;
+  --secondary-font: 'Bungee', cursive;
 }
 
 /*
@@ -15,10 +19,49 @@ html {
  */
 
 body {
+  font-family: var(--pp-font);
   color: #545149;
   background-color: #f4f1ec;
   font-size: 24px;
 }
+
+main {
+  display: flex;
+  width: 90%; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.line {
+  display: block;
+  width: 20em;
+  height: .125em;
+  background-color: black;
+}
+
+main .tweet-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tweet-symbol {
+  color: #FFFFFF;
+  background-color: #4056A1;
+
+  font-family: var(--secondary-font);
+  font-size: smaller;
+  margin-top: .45em;
+  padding: .25em;
+
+}
+
+.tweet-num {
+  margin-top: .45em;
+}
+
+
+
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions

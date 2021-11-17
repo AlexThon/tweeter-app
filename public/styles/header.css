@@ -1,0 +1,24 @@
+header {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* background image */
+header {
+  background-color: #b4cdde;
+  background-image: url(http://www.transparenttextures.com/patterns/little-knobs.png);
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+header h2 {
+  font-weight: 700;
+}
+
+header h2 span {
+  font-weight: 300;
+}
