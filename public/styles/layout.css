@@ -60,7 +60,20 @@ main .tweet-container {
   margin-top: .45em;
 }
 
+.new-tweet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
+.new-tweet form {
+  display: flex;
+  flex-direction: column;
+}
+#tweet-text {
+  margin: .5em;
+}
 
 
 /*

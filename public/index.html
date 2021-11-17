@@ -50,15 +50,29 @@
     <main class="container">
       <div>
         <h4>What are you humming about?</h4>
-
         <div class="line"></div>
         <div class="tweet-container">
           <h3 class="tweet-symbol">TWEET</h3>
           <di class="tweet-num">140</di>
         </div>
       </div>
-      
-      <section class="tweet">Another great day at work. Let's go for another win team! We've got this and that one coming</section>
+
+      <section class="tweet">
+        Another great day at work. Let's go for another win team! We've got this and the one coming
+      </section>
+
+      <section class="new-tweet">
+        <h2>Compose Tweet</h2>
+        <form method="post" action="/tweets/">
+          <label for="tweet-text">What are you humming about?</label>
+          <textarea name="text" id="tweet-text"></textarea>
+          <div>
+            <button type="submit">Tweet</button>
+            <output name="counter" class="counter" for="tweet-text">140</output>
+          </div>
+        </form>
+      </section>
+
     </main>
   </body>
 </html>
