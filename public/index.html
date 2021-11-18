@@ -37,7 +37,7 @@
       </div>
     </nav>
 
-    <header>
+    <header  class="main-header">
       <div>
           <img src="/images/profile-hex.png"> 
       </div>
@@ -49,19 +49,7 @@
 
     <!-- Page-specific (main) content here -->
     <main class="container">
-      <!-- <div>
-        <h4>What are you humming about?</h4>
-        <div class="line"></div>
-        <div class="tweet-container">
-          <h3 class="tweet-symbol">TWEET</h3>
-          <di class="tweet-num">140</di>
-        </div>
-      </div>
-
-      <section class="tweet">
-        Another great day at work. Let's go for another win team! We've got this and the one coming
-      </section> -->
-
+     
       <section class="new-tweet">
         <h2>Compose Tweet</h2>
         <form method="post" action="/tweets/">
@@ -72,6 +60,27 @@
             <output name="counter" class="counter" for="tweet-text">140</output>
           </div>
         </form>
+
+        <section class="tweets-outer-container">
+          <article class="tweet-container">
+            <section class="tweet-header">
+              <div><i class="fas fa-user"></i><span>Rhoda Kaka</span></div>
+              <div class="username">@MrsKaka</div>
+            </section>
+            <p>Hey team let's go for another win!</p>
+            <div class="line"></div>
+            <section class="days-container">
+              <span>10 days </span>
+              <div class="icons-container">
+                <i class="fas fa-flag"></i>
+                <i class="fas fa-retweet"></i>
+                <i class="fas fa-heart"></i>
+              </div>
+            </section>
+          </article>
+        </section>
+
+
       </section> 
 
     </main>
