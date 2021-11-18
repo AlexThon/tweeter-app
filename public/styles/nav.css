@@ -1,8 +1,12 @@
 nav span {
   font-family: var(--secondary-font);
   margin-bottom: -1.5em;
-;
-  
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 nav {
@@ -15,6 +19,7 @@ nav {
   align-items: center;
   z-index: 100;
 }
+
 .symbol i{
   display: block;
   color: red;
