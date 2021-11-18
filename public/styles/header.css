@@ -9,6 +9,7 @@ header {
 
 /* background image */
 header {
+  margin-top: 5em;
   background-color: #b4cdde;
   background-image: url(http://www.transparenttextures.com/patterns/little-knobs.png);
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
@@ -22,3 +23,5 @@ header h2 {
 header h2 span {
   font-weight: 300;
 }
+
+
