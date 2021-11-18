@@ -140,12 +140,19 @@ textarea {
 }
 
 
-.tweet-header div span {
-  margin-left: 1em;
+.tweet-header span {
   font-size: .85em;
 }
 
-.username {
+@media (min-width: 950px) {
+  .tweet-header span {
+    margin-right: 15em;
+    font-size: .85em;
+  }
+}
+
+
+.handle {
   color: var(--dark-color);
 
 }
