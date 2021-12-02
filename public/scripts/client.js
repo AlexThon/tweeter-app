@@ -67,7 +67,6 @@ $(document).ready(function() {
     } else {
      
       $.post('/tweets', $data).done((response)=> {
-        console.log("response is: ", response);
         $('textarea').val('');
         $('.counter').text(140);
         $('.tweets-outer-container').empty();
